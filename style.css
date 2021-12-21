@@ -1,0 +1,53 @@
+/* General Rules */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-12{
+    width: 100%;
+}
+
+ul li{
+    display: inline-block;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* Header Rules */
+
+header{
+    padding: 20px 15px;
+    height: 60px;
+    background-color: blue;
+    text-align: middle;
+}
+
+header img{
+    height: 30px;
+}
+
+header ul li{
+    margin: 0px 20px;
+}
+
