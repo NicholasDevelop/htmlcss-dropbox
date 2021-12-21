@@ -31,6 +31,10 @@ html{
     width: calc( ( 100% / 12 ) * 8 );
 }
 
+.col-7{
+    width: calc( ( 100% / 12 ) * 7 );
+}
+
 .col-6{
     width: calc( ( 100% / 12 ) * 6 );
 }
@@ -125,3 +129,6 @@ main .button{
     margin: 30px 0 15px 0;
 }
 
+main .col-7{
+    margin: 0 auto;
+}
