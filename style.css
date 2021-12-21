@@ -27,6 +27,18 @@ html{
     width: 100%;
 }
 
+.col-8{
+    width: calc( ( 100% / 12 ) * 8 );
+}
+
+.col-6{
+    width: calc( ( 100% / 12 ) * 6 );
+}
+
+.col-4{
+    width: calc( ( 100% / 12 ) * 4 );
+}
+
 nav{
     display: inline-block;
 }
@@ -64,14 +76,14 @@ header ul li{
     vertical-align: middle;
 }
 
-.header-ancor a{
+.button a{
     width: 60px;
     background-color: #0061FF;
     color: white;
     padding: 4px 10px;
 }
 
-header .header-ancor{
+header .button{
     display: inline-block;
     margin-left: 30px;
 }
@@ -79,3 +91,25 @@ header .header-ancor{
 
 /* Main Rules */
 
+
+/* section1 */
+
+main section:first-child{
+    background-color: #B4D0E7;
+}
+
+main h1{
+    font-size: calc( 3vh + 30px );
+}
+
+main .col-8:first-child{
+    margin: 0 auto;
+}
+
+.img-jumbo img{
+    width: 100%;
+}
+
+.img-jumbo{
+    display: inline-block;
+}
