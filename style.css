@@ -1,4 +1,7 @@
 /* General Rules */
+html{
+    font-family: 'Open Sans', sans-serif;
+}
 
 *{
     margin: 0;
@@ -47,12 +50,12 @@ header{
 }
 
 header img{
-    height: 30px;
+    max-height: 30px;
     vertical-align: middle;
 }
 
 header ul li{
-    margin: 0px 10px;
+    margin: 0px 20px;
     vertical-align: middle;
 }
 
@@ -61,12 +64,16 @@ header ul li{
     vertical-align: middle;
 }
 
-.header-right a{
+.header-ancor a{
     width: 60px;
+    background-color: #0061FF;
+    color: white;
+    padding: 4px 10px;
 }
 
 header .header-ancor{
     display: inline-block;
+    margin-left: 30px;
 }
 
 
