@@ -24,9 +24,13 @@
     width: 100%;
 }
 
+nav{
+    display: inline-block;
+}
+
 ul li{
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 a{
@@ -39,15 +43,32 @@ a{
 header{
     padding: 20px 15px;
     height: 60px;
-    background-color: blue;
-    text-align: middle;
+    background-color: white;
 }
 
 header img{
     height: 30px;
+    vertical-align: middle;
 }
 
 header ul li{
-    margin: 0px 20px;
+    margin: 0px 10px;
+    vertical-align: middle;
 }
+
+.header-left, .header-right{
+    max-width: 50%;
+    vertical-align: middle;
+}
+
+.header-right a{
+    width: 60px;
+}
+
+header .header-ancor{
+    display: inline-block;
+}
+
+
+/* Main Rules */
 
