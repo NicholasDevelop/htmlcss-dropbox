@@ -188,7 +188,7 @@ main .main-table .button{
     color: rgb(67, 141, 168);
 }
 
-main .main-table::after{
+main .main-table:not(.main-table:last-child)::after{
     content: "";
     display: block;
     width: 30px;
@@ -242,11 +242,6 @@ main .container-table{
     width: 230px;
     top: 0;
     right: 20px;
-}
-
-main .main-table::after:last-child{
-    content: "";
-    display: block;
 }
 
 
