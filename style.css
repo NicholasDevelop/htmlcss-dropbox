@@ -48,6 +48,10 @@ html{
     width: calc( ( 100% / 12 ) * 3 );
 }
 
+.col-2{
+    width: calc( ( 100% / 12 ) * 2 );
+}
+
 nav{
     display: inline-block;
 }
@@ -185,7 +189,7 @@ main .main-table .button{
 
 .special-ancor{
     text-decoration: underline;
-    color: rgb(67, 141, 168);
+    color: #0C69FF;
 }
 
 main .main-table:not(.main-table:last-child)::after{
@@ -294,3 +298,31 @@ main .container-table{
 
 /* section 5 */
 
+.team-title{
+    padding: 120px 0 40px 0;
+}
+
+.team-title h3{
+    font-size: 26px;
+}
+
+.team-title .special-ancor{
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.team-brand img{
+    width: 70%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.team-brand .col-6{
+    line-height: 181px;
+}
+
+.team-brand .col-4{
+    height: 362px;
+    padding: 30px;
+}
