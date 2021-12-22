@@ -18,6 +18,10 @@ html{
     float: right;
 }
 
+.color-white{
+    color: white;
+}
+
 .clearfix::after{
     content: "";
     display: block;
@@ -75,6 +79,10 @@ a{
 
 .color-grey{
     color: grey;
+}
+
+.center{
+    text-align: center;
 }
 
 /* Header Rules */
@@ -312,17 +320,67 @@ main .container-table{
     font-size: 14px;
 }
 
-.team-brand img{
+.team-brand .col-6 img{
     width: 70%;
     vertical-align: middle;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .team-brand .col-6{
     line-height: 181px;
 }
 
-.team-brand .col-4{
+.team-brand .col-4:nth-child(2){
     height: 362px;
     padding: 30px;
+}
+
+.team-bkg-1{
+    background-color: #A2D39B;
+}
+
+.team-bkg-2{
+    background-color: #61082B;
+}
+
+.team-bkg-3{
+    background-color: #0093CE;
+}
+
+.team-bkg-4{
+    background-color: #FF1C1C;
+}
+
+.team-bkg-5{
+    background-color: #F5F5F5;
+}
+
+.team-bkg-6{
+    background-color: #D5001F;
+}
+
+.team-bkg-7{
+    background-color: #B4D0E7;
+}
+
+.team-bkg-8{
+    background-color: #0D2481;
+}
+
+.team-bkg-9{
+    background-color: #FFD830;
+}
+
+.team-bkg-5 img{
+    width: 40%;
+}
+
+main .team-bkg-5 p{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.team-bkg-5 .color-grey{
+    color: lightgray;
+    font-size: 20px;
 }
