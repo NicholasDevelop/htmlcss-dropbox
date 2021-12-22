@@ -247,6 +247,7 @@ main .container-table{
 .large-table .main-table{
     position: relative;
     border-bottom: 1px solid #D5D5D7;
+    padding-bottom: 0px;
 }
 
 .large-table .main-table .button{
@@ -321,7 +322,7 @@ main .container-table{
 }
 
 .team-brand .col-6 img{
-    width: 70%;
+    width: 50%;
     vertical-align: middle;
     margin: 0 auto;
 }
@@ -372,7 +373,7 @@ main .container-table{
 }
 
 .team-bkg-5 img{
-    width: 40%;
+    width: 35%;
 }
 
 main .team-bkg-5 p{
