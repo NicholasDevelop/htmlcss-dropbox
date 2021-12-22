@@ -184,6 +184,7 @@ main .table .button{
 
 .table.table-long{
     height: 300px;
+    max-height: 700px;
 }
 
 /* DA CHIEDERE */
@@ -205,6 +206,7 @@ main .container-table{
 
 .container-table.large-table{
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .large-table.table{
@@ -215,4 +217,8 @@ main .container-table{
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+.big-img-left img{
+    max-width: 100%;
 }
