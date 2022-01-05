@@ -77,6 +77,11 @@ a{
     display: inline-block
 }
 
+.special-button{
+    background-color: white;
+    color: black;
+}
+
 .color-grey{
     color: grey;
 }
@@ -274,10 +279,8 @@ main .container-table{
     margin-bottom: 20px;
 }
 
-.text-container .button{
-    background-color: white;
+.text-container .button.special-button{
     border: 1px solid black;
-    color: black;
 }
 
 
@@ -384,4 +387,32 @@ main .team-bkg-5 p{
 .team-bkg-5 .color-grey{
     color: lightgray;
     font-size: 20px;
+}
+
+
+/* section 6 */
+
+.bkg-prova-dropbox{
+    background-color: #B4D0E7;
+    height: 250px;
+}
+
+.bkg-prova-dropbox h3{
+    font-size: 32px;
+    vertical-align: middle;
+    color: #61082B;
+}
+
+.text-container-prova-dropbox{
+    display: inline-block;
+    margin-top: 90px;
+}
+
+.text-container-prova-dropbox:last-child{
+    margin-top: 70px;
+    text-align: right;
+}
+
+.text-container-prova-dropbox .button.special-button{
+    padding: 6px 45px;
 }
