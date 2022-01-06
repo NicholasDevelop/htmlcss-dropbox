@@ -90,6 +90,7 @@ a{
     text-align: center;
 }
 
+
 /* Header Rules */
 
 header{
@@ -419,4 +420,49 @@ main .team-bkg-5 p{
 
 
 /* section 7 */
+
+.title-question{
+    font-size: 26px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+main #frequent-question::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 20px 0 20px 0;
+    background-color: #DEDEE0;
+}
+
+main .question::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 20px 0 20px 0;
+    background-color: #DEDEE0;
+}
+
+main .question{
+    width: 100%;
+}
+
+main .question span{
+    margin-right: 30px;
+}
+
+#frequent-question .hidden-question{
+display: none
+}
+
+#frequent-question .question:hover .hidden-question{
+display: block;
+margin: 20px 0 0 -1px;
+}
+
+#frequent-question{
+    margin-bottom: 60px;
+}
 
