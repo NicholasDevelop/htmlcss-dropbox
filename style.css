@@ -52,6 +52,10 @@ html{
     width: calc( ( 100% / 12 ) * 3 );
 }
 
+.col-2special{
+    width: calc( 100% / 5 );
+}
+
 .col-2{
     width: calc( ( 100% / 12 ) * 2 );
 }
