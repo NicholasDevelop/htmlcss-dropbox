@@ -494,3 +494,14 @@ footer .col-8{
     margin: 0 auto;
 }
 
+footer span{
+    margin: 50px 0 30px 0;
+    display: inline-block;
+}
+
+footer select{
+    display: block;
+    background-color: black;
+    border-color: black;
+    color: grey;
+}
