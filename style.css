@@ -466,3 +466,27 @@ margin: 20px 0 0 -1px;
     margin-bottom: 60px;
 }
 
+
+/* Footer Rules */
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+footer ul li{
+    display: block;
+    margin-top: 10px;
+}
+
+footer ul li h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+footer .col-8{
+    margin: 0 auto;
+}
+
