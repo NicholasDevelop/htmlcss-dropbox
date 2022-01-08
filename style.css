@@ -347,12 +347,16 @@ main .container-table{
 }
 
 .team-brand .col-6{
-    line-height: 181px;
+    line-height: calc( 362px / 2 );
 }
 
 .team-brand .col-4:nth-child(2){
     height: 362px;
     padding: 30px;
+}
+
+.invert-color{
+    filter: invert();
 }
 
 .team-bkg-1{
