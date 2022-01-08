@@ -94,12 +94,17 @@ a{
     text-align: center;
 }
 
+.button.special-button:hover{
+    background-color: #0061FF;
+    border-color: #0061FF;
+    color: white;
+}
+
 
 /* Header Rules */
 
 header{
-    padding: 20px 15px;
-    height: 60px;
+    padding: 10px 20px;
     background-color: white;
 }
 
@@ -112,6 +117,7 @@ header ul li{
     margin: 0px 20px;
     vertical-align: middle;
     font-size: 16px;
+    padding: 5px 20px;
 }
 
 .header-left, .header-right{
@@ -122,6 +128,11 @@ header ul li{
 header .button{
     display: inline-block;
     margin-left: 30px;
+}
+
+header nav ul li:hover{
+    color: white;
+    background-color: #0061FF;
 }
 
 
