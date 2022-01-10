@@ -350,6 +350,15 @@ main .container-table{
     margin: 0 auto;
 }
 
+.team-box{
+    border: 10px solid rgba(255, 255, 255, 0);
+    transition: border 300ms ease-in-out;
+}
+
+.team-box:hover{
+    border:10px solid rgba(255, 255, 255, 0.3);
+}
+
 .team-brand .col-6{
     line-height: calc( 362px / 2 );
 }
